@@ -1,25 +1,29 @@
+BUILD:
+- armv7-conda_cos7-linux-gnueabihf
 c_compiler:
 - gcc
 c_compiler_version:
 - '12'
+cdt_arch:
+- armv7l
 cdt_name:
 - cos7
 channel_sources:
-- conda-forge
+- e8035669acarmv7,conda-forge
 channel_targets:
-- conda-forge main
+- e8035669acarmv7 main
 cxx_compiler:
 - gxx
 cxx_compiler_version:
 - '12'
 docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le
+- e8035669/linux-anvil-armv7l
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
 - '12'
 target_platform:
-- linux-ppc64le
+- linux-armv7l
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
