@@ -1,7 +1,0 @@
-channel_sources:
-- e8035669acarmv7,conda-forge
-channel_targets:
-- e8035669acarmv7 main
-docker_image:
-- e8035669/linux-anvil-armv7l # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
-
